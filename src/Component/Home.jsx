@@ -23,15 +23,15 @@ export default function Home() {
             <button aria-label="Explore Rezukah Services" className="bg-transparent border border-white hover:bg-white hover:text-black px-6 py-3 rounded-full text-white text-sm font-semibold transition duration-300"> Explore Our Services</button></div>
         </div>
         <div className='py-10 px-4 md:px-12'>
-            <h1 className="text-2xl font-semibold text-gray-800 text-center mb-6">Why Choose Rezukah?</h1>
+            <h2 className="text-2xl font-semibold text-gray-800 text-center mb-6">Why Choose Rezukah?</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6" >
                 {
                     chooses.map((choose,index)=>(
 
-                        <div key={index} className="flex flex-col items-center space-x-4 bg-white p-4 rounded-xl shadow hover:shadow-md transition duration-300" >
+                        <div key={index} className="flex flex-col items-center space-x-4 bg-gray-50 p-4 rounded-2xl shadow hover:shadow-md transition duration-300" >
                         <div className="text-7xl text-center">{choose.icons}</div>
                         <div>
-                        <h1 className="text-lg font-semibold text-gray-800 mt-12">{choose.title}</h1>
+                        <h3 className="text-lg font-semibold text-gray-800 mt-12">{choose.title}</h3>
                         </div>
                         </div>
 
