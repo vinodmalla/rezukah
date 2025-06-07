@@ -4,6 +4,7 @@ import Header from './Component/Header'
 import { createBrowserRouter,Outlet,useOutlet } from 'react-router'
 import Home from './Component/Home'
 import About from './Component/About'
+import Services from './Component/Services'
 
 function App() {
   
@@ -29,6 +30,9 @@ export const approuter=createBrowserRouter([
       },{
         path:"/about",
         element:<About />
+      },{
+        path:"/services",
+        element:<Services />
       }
      ]
   }

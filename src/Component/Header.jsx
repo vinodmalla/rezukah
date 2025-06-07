@@ -19,7 +19,7 @@ export default function Header() {
             <ul className='flex flex-col md:flex-row md:items-center   md:space-x-10  p-4 md:p-4 text-[#15416d] text-sm font-calibri font-semibold'>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/">Home</Link></li>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/about">Abouts Us</Link></li>
-                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'>Services</li>
+                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/services">Services</Link></li>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'>Blogs</li>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'>Contacts</li>
             </ul>

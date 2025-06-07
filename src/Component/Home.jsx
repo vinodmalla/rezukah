@@ -1,4 +1,5 @@
 import { icons } from "lucide-react"
+import { Link } from "react-router"
 
 export default function Home() {
     const chooses=[
@@ -19,8 +20,8 @@ export default function Home() {
                   At Rezukah, we don’t just follow trends — we set them. We’re pioneers in crafting transformative digital journeys that blend creativity, data, and cutting-edge technology. From AI-powered marketing campaigns and intelligent web development to immersive user experiences and scalable eCommerce solutions, we help businesses not only stand out — but lead. Every solution we create is built to inspire engagement, drive growth, and deliver real results in an ever-evolving digital world.
             </p>
          <div className="flex flex-wrap justify-center gap-4 md:mr-70">
-            <button aria-label="Get Started with Rezukah" className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-full text-white text-sm font-semibold transition duration-300"> Get Started </button>
-            <button aria-label="Explore Rezukah Services" className="bg-transparent border border-white hover:bg-white hover:text-black px-6 py-3 rounded-full text-white text-sm font-semibold transition duration-300"> Explore Our Services</button></div>
+            <button aria-label="Get Started with Rezukah" className="bg-purple-600 hover:bg-purple-700 px-6 py-3 rounded-full text-white text-sm font-semibold transition duration-300"><Link to="/about"> Get Started</Link> </button>
+            <button aria-label="Explore Rezukah Services" className="bg-transparent border border-white hover:bg-white hover:text-black px-6 py-3 rounded-full text-white text-sm font-semibold transition duration-300"><Link to="/services">Explore Our Services</Link> </button></div>
         </div>
         <div className='py-10 px-4 md:px-12'>
             <h2 className="text-2xl font-semibold text-gray-800 text-center mb-6">Why Choose Rezukah?</h2>
