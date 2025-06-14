@@ -72,13 +72,13 @@ const services = [
   {
     title: 'Natural Language Processing (NLP)',
     description: 'Power chatbots, virtual assistants, and sentiment analysis tools for smarter customer interactions.',
-    img: 'https://source.unsplash.com/100x100/?nlp',
+    img: '/Natural Language Processing (NLP).jpeg',
     icon: <MessageSquare className="text-teal-500 w-8 h-8" />,
   },
   {
     title: 'AI in Operations',
     description: 'Automate and optimize supply chains, resource allocation, and process monitoring with AI-driven decision engines.',
-    img: 'https://source.unsplash.com/100x100/?ai-operations',
+    img: '/AI in Operations.jpeg',
     icon: <Zap className="text-teal-500 w-8 h-8" />,
   },
   {
