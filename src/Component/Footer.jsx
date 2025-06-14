@@ -60,11 +60,11 @@ const Footer = () => {
             </li>
             <li>
               <Link
-                to="/contacts"
+                to="/contact"
                 className="hover:text-[#fb9511] transition duration-300"
                 aria-label="Go to Contacts page"
               >
-                Contacts
+                Contact Us
               </Link>
             </li>
             
@@ -204,7 +204,7 @@ const Footer = () => {
         © {new Date().getFullYear()} Rezukah. All rights reserved.
       </div>
 
-      <style jsx>{`
+      <style>{`
         .font-calibri {
           font-family: 'Calibri', sans-serif;
         }

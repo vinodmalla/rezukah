@@ -193,7 +193,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         .font-calibri {
           font-family: 'Calibri', sans-serif;
         }

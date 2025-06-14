@@ -20,8 +20,8 @@ export default function Header() {
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/">Home</Link></li>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/about">Abouts Us</Link></li>
                 <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/services">Services</Link></li>
-                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'>Blogs</li>
-                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/contact">Contacts</Link></li>
+                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/blogs">Blogs</Link></li>
+                <li onClick={()=>setisOpen(false)} className='py-2 px-2 active:underline md:hover:bg-[#15416d] md:hover:rounded-md md:hover:text-white md:hover:cursor-pointer'><Link to="/contact">Contact Us</Link></li>
             </ul>
             </nav> 
 
