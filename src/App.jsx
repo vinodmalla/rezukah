@@ -14,6 +14,7 @@ import GraphicAndUIUXServices from './Component/GraphicAndUIUXServices'
 import ComplexBusinessApps from './Component/ComplexBusinessApps'
 import ScrollTop from './Component/ScrollTop'
 import Footer from './Component/Footer'
+import Contact from './Component/Contact'
 
 function App() {
   
@@ -63,6 +64,9 @@ export const approuter=createBrowserRouter([
       },{
         path:"/crm",
         element:<ComplexBusinessApps />
+      },{
+        path:"/contact",
+        element:<Contact />
       }
      ]
   }

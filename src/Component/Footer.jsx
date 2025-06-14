@@ -145,7 +145,7 @@ const Footer = () => {
               className="hover:text-[#fb9511] transition duration-300"
               aria-label="Call +918340039341"
             >
-              +918340039341
+              +91-8340039341
             </a>
           </p>
           <p className="flex items-center justify-center md:justify-start text-sm text-gray-300 mb-4 font-calibri">
