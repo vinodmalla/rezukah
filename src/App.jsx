@@ -1,10 +1,18 @@
 import './App.css'
-import Launching from './Component/Launching'
+//import Launching from './Component/Launching'
 import Header from './Component/Header'
 import { createBrowserRouter,Outlet,useOutlet } from 'react-router'
 import Home from './Component/Home'
 import About from './Component/About'
 import Services from './Component/Services'
+//import Cba from './Component/WebDevServices'
+import WebDevServices from './Component/WebDevServices'
+import MobileAppServices from './Component/MobileAppServices'
+import CustomSoftwareServices from './Component/CustomSoftwareServices'
+import DigitalMarketingServices from './Component/DigitalMarketingServices'
+import GraphicAndUIUXServices from './Component/GraphicAndUIUXServices'
+import ComplexBusinessApps from './Component/ComplexBusinessApps'
+import ScrollTop from './Component/ScrollTop'
 
 function App() {
   
@@ -12,6 +20,7 @@ function App() {
     <>
      {/* <Launching />*/}
      <Header />
+     <ScrollTop />
      <Outlet />
     </>
   )
@@ -33,6 +42,25 @@ export const approuter=createBrowserRouter([
       },{
         path:"/services",
         element:<Services />
+      },{
+        path:"/web",
+        element:<WebDevServices />
+      },{
+        path:"/mobile",
+        element:<MobileAppServices />
+      },{
+        path:"/csd",
+        element:<CustomSoftwareServices />
+      },{
+        path:"/digital",
+        element:<DigitalMarketingServices />
+      },{
+        path:"/graphics",
+        element:<GraphicAndUIUXServices />
+
+      },{
+        path:"/crm",
+        element:<ComplexBusinessApps />
       }
      ]
   }
