@@ -13,6 +13,7 @@ import DigitalMarketingServices from './Component/DigitalMarketingServices'
 import GraphicAndUIUXServices from './Component/GraphicAndUIUXServices'
 import ComplexBusinessApps from './Component/ComplexBusinessApps'
 import ScrollTop from './Component/ScrollTop'
+import Footer from './Component/Footer'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
      <Header />
      <ScrollTop />
      <Outlet />
+     <Footer />
     </>
   )
 }
