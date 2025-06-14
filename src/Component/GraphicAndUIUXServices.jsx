@@ -27,7 +27,7 @@ const partnerBenefits = [
   { icon: <MonitorSmartphone className="text-teal-500 w-26 h-26" />, title: 'Pixel-Perfect for All Screens' },
   { icon: <Users className="text-teal-500 w-26 h-26" />, title: 'User-Centric Approach' },
   { icon: <Palette className="text-teal-500 w-26 h-26" />, title: 'Consistent Brand Storytelling' },
-  { icon: <Clock className="text-teal-500 w-26 h-2  6" />, title: 'Fast Turnaround & Quality' },
+  { icon: <Clock className="text-teal-500 w-26 h-26" />, title: 'Fast Turnaround & Quality' },
 ];
 
 const services = [
